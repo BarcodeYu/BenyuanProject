@@ -3,7 +3,7 @@
     <div class="pop-form">
       <span @click="close">X</span>
       <h1>领取本期报考资料</h1>
-      <input type="text" placeholder="请输入您的微信、手机、QQ号" class="pop-text" id="pop-text" @input="active()">
+      <input type="text" placeholder="请输入您的微信、手机、QQ号" class="pop-text" id="pop-text" @input="active_o()">
       <button class="pop-btn" id="pop-btn" onclick="setexam_pop()">领取本期报考资料</button>
       <p>注意: <br>尚德机构承诺，您的信息只用于为您提供更详细的<br>免费考试信息，不会对外泄露！</p>
     </div>
@@ -16,12 +16,20 @@ export default {
     close () {
       this.$emit('closewindows')
     },
-    active () {
+    active_b () {
       let TextValueLength = document.getElementById('pop-text').value.length
       if (TextValueLength > 0) {
-        document.getElementById('pop-btn').classList.add('btn-active')
+        document.getElementById('pop-btn').classList.add('btn-active-b')
       } else {
-        document.getElementById('pop-btn').classList.remove('btn-active')
+        document.getElementById('pop-btn').classList.remove('btn-active-b')
+      }
+    },
+    active_o () {
+      let TextValueLength = document.getElementById('pop-text').value.length
+      if (TextValueLength > 0) {
+        document.getElementById('pop-btn').classList.add('btn-active-o')
+      } else {
+        document.getElementById('pop-btn').classList.remove('btn-active-o')
       }
     }
   }
@@ -75,9 +83,13 @@ export default {
       background: #eee;
       border-style: none;
     }
-    .btn-active{
+    .btn-active-b{
       background: #00a8e1;
       color: #fff;
+    }
+    .btn-active-o{
+      background: #f9e655;
+      color: #333;
     }
     p{
       margin-top: 64px;

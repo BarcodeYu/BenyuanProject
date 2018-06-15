@@ -1,67 +1,67 @@
 <template>
   <div id="menu" class="menu">
-    <div class="menu-title menu-background-b">
+    <div class="menu-title menu-background-o">
       <span>本次报考接受以下学历形式</span>
     </div>
     <div class="menu-selection-bg">
-      <div class="menu-box menu-box-bg-b"></div>
-      <div class="menu-box menu-box-bg-b"></div>
-      <div class="menu-box menu-box-bg-b mr0px"></div>
-      <div class="menu-box menu-box-bg-b"></div>
-      <div class="menu-box menu-box-bg-b"></div>
-      <div class="menu-box menu-box-bg-b mr0px"></div>
+      <div class="menu-box menu-box-bg-o"></div>
+      <div class="menu-box menu-box-bg-o"></div>
+      <div class="menu-box menu-box-bg-o mr0px"></div>
+      <div class="menu-box menu-box-bg-o"></div>
+      <div class="menu-box menu-box-bg-o"></div>
+      <div class="menu-box menu-box-bg-o mr0px"></div>
     </div>
     <div class="menu-selection">
-      <div @click="openwindow()" class="menu-box menu-box-bg-b">
+      <div @click="openwindow()" class="menu-box menu-box-bg-o">
         <span>低学历<br>考专科</span>
       </div>
-      <div @click="openwindow()" class="menu-box menu-box-bg-b">
+      <div @click="openwindow()" class="menu-box menu-box-bg-o">
         <span>低学历<br>考本科</span>
       </div>
-      <div @click="openwindow()" class="menu-box menu-box-bg-b mr0px">
+      <div @click="openwindow()" class="menu-box menu-box-bg-o mr0px">
         <span>高&nbsp;中<br>考专科</span>
       </div>
-      <div @click="openwindow()" class="menu-box menu-box-bg-b">
+      <div @click="openwindow()" class="menu-box menu-box-bg-o">
         <span>高&nbsp;中<br>考本科</span>
       </div>
-      <div @click="openwindow()" class="menu-box menu-box-bg-b">
+      <div @click="openwindow()" class="menu-box menu-box-bg-o">
         <span>专&nbsp;科<br>考本科</span>
       </div>
-      <div @click="openwindow()" class="menu-box menu-box-bg-b mr0px">
+      <div @click="openwindow()" class="menu-box menu-box-bg-o mr0px">
         <span>其他<br>形式</span>
       </div>
 
       <div class="menu-methods">
         <div class="menu-section-bg">
-          <div @click="openwindow()" class="menu-section-box-bg-b menu-section-box mt0px"></div>
-          <div @click="openwindow()" class="menu-section-box-bg-b menu-section-box mr0px mt0px"></div>
-          <div @click="openwindow()" class="menu-section-box-bg-b menu-section-box"></div>
-          <div @click="openwindow()" class="menu-section-box-bg-b menu-section-box mr0px"></div>
-          <div @click="openwindow()" class="menu-section-box-bg-b menu-section-box"></div>
-          <div @click="openwindow()" class="menu-section-box-bg-b menu-section-box mr0px"></div>
+          <div @click="openwindow()" class="menu-section-box-bg-o menu-section-box mt0px"></div>
+          <div @click="openwindow()" class="menu-section-box-bg-o menu-section-box mr0px mt0px"></div>
+          <div @click="openwindow()" class="menu-section-box-bg-o menu-section-box"></div>
+          <div @click="openwindow()" class="menu-section-box-bg-o menu-section-box mr0px"></div>
+          <div @click="openwindow()" class="menu-section-box-bg-o menu-section-box"></div>
+          <div @click="openwindow()" class="menu-section-box-bg-o menu-section-box mr0px"></div>
         </div>
         <div class="menu-section">
-          <div @click="openwindow()" class="menu-section-box menu-section-box-bg-b mt0px">
+          <div @click="openwindow()" class="menu-section-box menu-section-box-bg-o mt0px">
             <img src="../../../static/images/theme_icon01_orange.png" alt="">
             <span>报考条件</span>
           </div>
-          <div @click="openwindow()" class="menu-section-box menu-section-box-bg-b mr0px mt0px">
+          <div @click="openwindow()" class="menu-section-box menu-section-box-bg-o mr0px mt0px">
             <img src="../../../static/images/theme_icon02_orange.png" alt="">
             <span>报考时间</span>
           </div>
-          <div @click="openwindow()" class="menu-section-box menu-section-box-bg-b">
+          <div @click="openwindow()" class="menu-section-box menu-section-box-bg-o">
             <img src="../../../static/images/theme_icon03_orange.png" alt="">
             <span>报考费用</span>
           </div>
-          <div @click="openwindow()" class="menu-section-box menu-section-box-bg-b mr0px">
+          <div @click="openwindow()" class="menu-section-box menu-section-box-bg-o mr0px">
             <img src="../../../static/images/theme_icon04_orange.png" alt="">
             <span>院校专业</span>
           </div>
-          <div @click="openwindow()" class="menu-section-box menu-section-box-bg-b">
+          <div @click="openwindow()" class="menu-section-box menu-section-box-bg-o">
             <img src="../../../static/images/theme_icon05_orange.png" alt="">
             <span>报考流程</span>
           </div>
-          <div @click="openwindow()" class="menu-section-box menu-section-box-bg-b mr0px">
+          <div @click="openwindow()" class="menu-section-box menu-section-box-bg-o mr0px">
             <img src="../../../static/images/theme_icon06_orange.png" alt="">
             <span>政策风向</span>
           </div>

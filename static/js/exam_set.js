@@ -45,154 +45,154 @@ function delCookie(name) {
 
 // 点击按钮
 function exam_text1_1() {
-  document.getElementById('text1_1').classList.add('button-active-b')
-  document.getElementById('text1_2').classList.remove('button-active-b')
-  document.getElementById('text1_3').classList.remove('button-active-b')
-  document.getElementById('text1_4').classList.remove('button-active-b')
+  document.getElementById('text1_1').classList.add('button-active-o')
+  document.getElementById('text1_2').classList.remove('button-active-o')
+  document.getElementById('text1_3').classList.remove('button-active-o')
+  document.getElementById('text1_4').classList.remove('button-active-o')
 }
 function exam_text1_2() {
-  document.getElementById('text1_2').classList.add('button-active-b')
-  document.getElementById('text1_1').classList.remove('button-active-b')
-  document.getElementById('text1_3').classList.remove('button-active-b')
-  document.getElementById('text1_4').classList.remove('button-active-b')
+  document.getElementById('text1_2').classList.add('button-active-o')
+  document.getElementById('text1_1').classList.remove('button-active-o')
+  document.getElementById('text1_3').classList.remove('button-active-o')
+  document.getElementById('text1_4').classList.remove('button-active-o')
 }
 function exam_text1_3() {
-  document.getElementById('text1_3').classList.add('button-active-b')
-  document.getElementById('text1_2').classList.remove('button-active-b')
-  document.getElementById('text1_1').classList.remove('button-active-b')
-  document.getElementById('text1_4').classList.remove('button-active-b')
+  document.getElementById('text1_3').classList.add('button-active-o')
+  document.getElementById('text1_2').classList.remove('button-active-o')
+  document.getElementById('text1_1').classList.remove('button-active-o')
+  document.getElementById('text1_4').classList.remove('button-active-o')
 }
 function exam_text1_4() {
-  document.getElementById('text1_4').classList.add('button-active-b')
-  document.getElementById('text1_2').classList.remove('button-active-b')
-  document.getElementById('text1_3').classList.remove('button-active-b')
-  document.getElementById('text1_1').classList.remove('button-active-b')
+  document.getElementById('text1_4').classList.add('button-active-o')
+  document.getElementById('text1_2').classList.remove('button-active-o')
+  document.getElementById('text1_3').classList.remove('button-active-o')
+  document.getElementById('text1_1').classList.remove('button-active-o')
 }
 function exam_text2_1() {
-  document.getElementById('text2_1').classList.add('button-active-b')
-  document.getElementById('text2_2').classList.remove('button-active-b')
-  document.getElementById('text2_3').classList.remove('button-active-b')
-  document.getElementById('text2_4').classList.remove('button-active-b')
+  document.getElementById('text2_1').classList.add('button-active-o')
+  document.getElementById('text2_2').classList.remove('button-active-o')
+  document.getElementById('text2_3').classList.remove('button-active-o')
+  document.getElementById('text2_4').classList.remove('button-active-o')
   examSum = 1
   console.log(examSum)
 }
 function exam_text2_2() {
-  document.getElementById('text2_2').classList.add('button-active-b')
-  document.getElementById('text2_1').classList.remove('button-active-b')
-  document.getElementById('text2_3').classList.remove('button-active-b')
-  document.getElementById('text2_4').classList.remove('button-active-b')
+  document.getElementById('text2_2').classList.add('button-active-o')
+  document.getElementById('text2_1').classList.remove('button-active-o')
+  document.getElementById('text2_3').classList.remove('button-active-o')
+  document.getElementById('text2_4').classList.remove('button-active-o')
   examSum = 1
   console.log(examSum)
 }
 function exam_text2_3() {
-  document.getElementById('text2_3').classList.add('button-active-b')
-  document.getElementById('text2_2').classList.remove('button-active-b')
-  document.getElementById('text2_1').classList.remove('button-active-b')
-  document.getElementById('text2_4').classList.remove('button-active-b')
+  document.getElementById('text2_3').classList.add('button-active-o')
+  document.getElementById('text2_2').classList.remove('button-active-o')
+  document.getElementById('text2_1').classList.remove('button-active-o')
+  document.getElementById('text2_4').classList.remove('button-active-o')
   examSum = 2
   console.log(examSum)
 }
 function exam_text2_4() {
-  document.getElementById('text2_4').classList.add('button-active-b')
-  document.getElementById('text2_2').classList.remove('button-active-b')
-  document.getElementById('text2_3').classList.remove('button-active-b')
-  document.getElementById('text2_1').classList.remove('button-active-b')
+  document.getElementById('text2_4').classList.add('button-active-o')
+  document.getElementById('text2_2').classList.remove('button-active-o')
+  document.getElementById('text2_3').classList.remove('button-active-o')
+  document.getElementById('text2_1').classList.remove('button-active-o')
   examSum = 3
   console.log(examSum)
 }
 function exam_text3_1() {
-  document.getElementById('text3_1').classList.add('button-active-b')
-  document.getElementById('text3_2').classList.remove('button-active-b')
-  document.getElementById('text3_3').classList.remove('button-active-b')
-  document.getElementById('text3_4').classList.remove('button-active-b')
+  document.getElementById('text3_1').classList.add('button-active-o')
+  document.getElementById('text3_2').classList.remove('button-active-o')
+  document.getElementById('text3_3').classList.remove('button-active-o')
+  document.getElementById('text3_4').classList.remove('button-active-o')
 }
 function exam_text3_2() {
-  document.getElementById('text3_2').classList.add('button-active-b')
-  document.getElementById('text3_1').classList.remove('button-active-b')
-  document.getElementById('text3_3').classList.remove('button-active-b')
-  document.getElementById('text3_4').classList.remove('button-active-b')
+  document.getElementById('text3_2').classList.add('button-active-o')
+  document.getElementById('text3_1').classList.remove('button-active-o')
+  document.getElementById('text3_3').classList.remove('button-active-o')
+  document.getElementById('text3_4').classList.remove('button-active-o')
 }
 function exam_text3_3() {
-  document.getElementById('text3_3').classList.add('button-active-b')
-  document.getElementById('text3_2').classList.remove('button-active-b')
-  document.getElementById('text3_1').classList.remove('button-active-b')
-  document.getElementById('text3_4').classList.remove('button-active-b')
+  document.getElementById('text3_3').classList.add('button-active-o')
+  document.getElementById('text3_2').classList.remove('button-active-o')
+  document.getElementById('text3_1').classList.remove('button-active-o')
+  document.getElementById('text3_4').classList.remove('button-active-o')
 }
 function exam_text3_4() {
-  document.getElementById('text3_4').classList.add('button-active-b')
-  document.getElementById('text3_2').classList.remove('button-active-b')
-  document.getElementById('text3_3').classList.remove('button-active-b')
-  document.getElementById('text3_1').classList.remove('button-active-b')
+  document.getElementById('text3_4').classList.add('button-active-o')
+  document.getElementById('text3_2').classList.remove('button-active-o')
+  document.getElementById('text3_3').classList.remove('button-active-o')
+  document.getElementById('text3_1').classList.remove('button-active-o')
 }
 function exam_text4_1() {
-  document.getElementById('text4_1').classList.add('button-active-b')
-  document.getElementById('text4_2').classList.remove('button-active-b')
-  document.getElementById('text4_3').classList.remove('button-active-b')
-  document.getElementById('text4_4').classList.remove('button-active-b')
-  document.getElementById('text4_5').classList.remove('button-active-b')
+  document.getElementById('text4_1').classList.add('button-active-o')
+  document.getElementById('text4_2').classList.remove('button-active-o')
+  document.getElementById('text4_3').classList.remove('button-active-o')
+  document.getElementById('text4_4').classList.remove('button-active-o')
+  document.getElementById('text4_5').classList.remove('button-active-o')
 }
 function exam_text4_2() {
-  document.getElementById('text4_2').classList.add('button-active-b')
-  document.getElementById('text4_1').classList.remove('button-active-b')
-  document.getElementById('text4_3').classList.remove('button-active-b')
-  document.getElementById('text4_4').classList.remove('button-active-b')
-  document.getElementById('text4_5').classList.remove('button-active-b')
+  document.getElementById('text4_2').classList.add('button-active-o')
+  document.getElementById('text4_1').classList.remove('button-active-o')
+  document.getElementById('text4_3').classList.remove('button-active-o')
+  document.getElementById('text4_4').classList.remove('button-active-o')
+  document.getElementById('text4_5').classList.remove('button-active-o')
 }
 function exam_text4_3() {
-  document.getElementById('text4_3').classList.add('button-active-b')
-  document.getElementById('text4_2').classList.remove('button-active-b')
-  document.getElementById('text4_1').classList.remove('button-active-b')
-  document.getElementById('text4_4').classList.remove('button-active-b')
-  document.getElementById('text4_5').classList.remove('button-active-b')
+  document.getElementById('text4_3').classList.add('button-active-o')
+  document.getElementById('text4_2').classList.remove('button-active-o')
+  document.getElementById('text4_1').classList.remove('button-active-o')
+  document.getElementById('text4_4').classList.remove('button-active-o')
+  document.getElementById('text4_5').classList.remove('button-active-o')
 }
 function exam_text4_4() {
-  document.getElementById('text4_4').classList.add('button-active-b')
-  document.getElementById('text4_2').classList.remove('button-active-b')
-  document.getElementById('text4_3').classList.remove('button-active-b')
-  document.getElementById('text4_5').classList.remove('button-active-b')
-  document.getElementById('text4_1').classList.remove('button-active-b')
+  document.getElementById('text4_4').classList.add('button-active-o')
+  document.getElementById('text4_2').classList.remove('button-active-o')
+  document.getElementById('text4_3').classList.remove('button-active-o')
+  document.getElementById('text4_5').classList.remove('button-active-o')
+  document.getElementById('text4_1').classList.remove('button-active-o')
 }
 function exam_text4_5() {
-  document.getElementById('text4_5').classList.add('button-active-b')
-  document.getElementById('text4_2').classList.remove('button-active-b')
-  document.getElementById('text4_3').classList.remove('button-active-b')
-  document.getElementById('text4_4').classList.remove('button-active-b')
-  document.getElementById('text4_1').classList.remove('button-active-b')
+  document.getElementById('text4_5').classList.add('button-active-o')
+  document.getElementById('text4_2').classList.remove('button-active-o')
+  document.getElementById('text4_3').classList.remove('button-active-o')
+  document.getElementById('text4_4').classList.remove('button-active-o')
+  document.getElementById('text4_1').classList.remove('button-active-o')
 }
 function exam_text5_1() {
-  document.getElementById('text5_1').classList.add('button-active-b')
-  document.getElementById('text5_2').classList.remove('button-active-b')
-  document.getElementById('text5_3').classList.remove('button-active-b')
-  document.getElementById('text5_4').classList.remove('button-active-b')
-  document.getElementById('text5_5').classList.remove('button-active-b')
+  document.getElementById('text5_1').classList.add('button-active-o')
+  document.getElementById('text5_2').classList.remove('button-active-o')
+  document.getElementById('text5_3').classList.remove('button-active-o')
+  document.getElementById('text5_4').classList.remove('button-active-o')
+  document.getElementById('text5_5').classList.remove('button-active-o')
 }
 function exam_text5_2() {
-  document.getElementById('text5_2').classList.add('button-active-b')
-  document.getElementById('text5_1').classList.remove('button-active-b')
-  document.getElementById('text5_3').classList.remove('button-active-b')
-  document.getElementById('text5_4').classList.remove('button-active-b')
-  document.getElementById('text5_5').classList.remove('button-active-b')
+  document.getElementById('text5_2').classList.add('button-active-o')
+  document.getElementById('text5_1').classList.remove('button-active-o')
+  document.getElementById('text5_3').classList.remove('button-active-o')
+  document.getElementById('text5_4').classList.remove('button-active-o')
+  document.getElementById('text5_5').classList.remove('button-active-o')
 }
 function exam_text5_3() {
-  document.getElementById('text5_3').classList.add('button-active-b')
-  document.getElementById('text5_2').classList.remove('button-active-b')
-  document.getElementById('text5_1').classList.remove('button-active-b')
-  document.getElementById('text5_4').classList.remove('button-active-b')
-  document.getElementById('text5_5').classList.remove('button-active-b')
+  document.getElementById('text5_3').classList.add('button-active-o')
+  document.getElementById('text5_2').classList.remove('button-active-o')
+  document.getElementById('text5_1').classList.remove('button-active-o')
+  document.getElementById('text5_4').classList.remove('button-active-o')
+  document.getElementById('text5_5').classList.remove('button-active-o')
 }
 function exam_text5_4() {
-  document.getElementById('text5_4').classList.add('button-active-b')
-  document.getElementById('text5_2').classList.remove('button-active-b')
-  document.getElementById('text5_3').classList.remove('button-active-b')
-  document.getElementById('text5_5').classList.remove('button-active-b')
-  document.getElementById('text5_1').classList.remove('button-active-b')
+  document.getElementById('text5_4').classList.add('button-active-o')
+  document.getElementById('text5_2').classList.remove('button-active-o')
+  document.getElementById('text5_3').classList.remove('button-active-o')
+  document.getElementById('text5_5').classList.remove('button-active-o')
+  document.getElementById('text5_1').classList.remove('button-active-o')
 }
 function exam_text5_5() {
-  document.getElementById('text5_5').classList.add('button-active-b')
-  document.getElementById('text5_2').classList.remove('button-active-b')
-  document.getElementById('text5_3').classList.remove('button-active-b')
-  document.getElementById('text5_4').classList.remove('button-active-b')
-  document.getElementById('text5_1').classList.remove('button-active-b')
+  document.getElementById('text5_5').classList.add('button-active-o')
+  document.getElementById('text5_2').classList.remove('button-active-o')
+  document.getElementById('text5_3').classList.remove('button-active-o')
+  document.getElementById('text5_4').classList.remove('button-active-o')
+  document.getElementById('text5_1').classList.remove('button-active-o')
 }
 function setexam() {
   let hasSendPhone = getCookie('sunlandPhone')

@@ -1,6 +1,6 @@
 <template>
   <div class="bottom" id="bottom">
-    <div class="bottom-title bottom-background-b">
+    <div class="bottom-title bottom-background-o">
       <span>热门专业一览</span>
     </div>
     <!-- 滚动banner -->

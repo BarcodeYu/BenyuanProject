@@ -19,9 +19,9 @@ export default {
     active () {
       let TextValueLength = document.getElementById('xueli-text').value.length
       if (TextValueLength > 0) {
-        document.getElementById('xueli-btn').classList.add('btn-active')
+        document.getElementById('xueli-btn').classList.add('btn-active-o')
       } else {
-        document.getElementById('xueli-btn').classList.remove('btn-active')
+        document.getElementById('xueli-btn').classList.remove('btn-active-o')
       }
     }
   }
@@ -75,9 +75,13 @@ export default {
       background: #eee;
       border-style: none;
     }
-    .btn-active{
+    .btn-active-b{
       background: #00a8e1;
       color: #fff;
+    }
+    .btn-active-o{
+      background: #f9e655;
+      color: #333;
     }
     p{
       margin-top: 64px;
