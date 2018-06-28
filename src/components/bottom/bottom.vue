@@ -83,6 +83,7 @@ export default {
   // padding: 64px 64px 0 64px;
   border-top: 2px #eee solid;
   margin: 0 auto;
+  margin-bottom: 90px;
   .bottom-title{
     margin: 0 auto;
     line-height: 142px;

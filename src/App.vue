@@ -7,6 +7,7 @@
     <v-exam></v-exam>
     <v-menu @setting="getting"></v-menu>
     <v-bottom @setting="getting" @onsale="opensale"></v-bottom>
+    <v-bar></v-bar>
     <router-view/>
   </div>
 </template>
@@ -19,6 +20,7 @@ import bottom from './components/bottom/bottom.vue'
 import popwindow from './components/popwindow/popwindow.vue'
 import onsale from './components/popwindow/onsale.vue'
 import popxueli from './components/popwindow/popxueli.vue'
+import bar from './components/bar/bar.vue'
 export default {
   name: 'App',
   data () {
@@ -62,7 +64,8 @@ export default {
     'v-bottom': bottom,
     'v-popwindow': popwindow,
     'v-onsale': onsale,
-    'v-popxueli': popxueli
+    'v-popxueli': popxueli,
+    'v-bar': bar
   }
 }
 </script>

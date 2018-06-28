@@ -17,6 +17,7 @@ const app = express()
 
 const appData = require('../data.json')
 const base = appData.base
+const menu = appData.menu
 
 //路由配置
 const apiRoutes = express.Router() // base数据路由
@@ -57,12 +58,19 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     },
 
     //router配置
+    // 如果是post请求，那么将get改为post即可
     before(app) {
       app.get('/api/base', (req, res) => {
         res.json({
           errno: 0,
           data: base
         })//接口返回json数据，上面配置的数据base就赋值给data请求后调用
+      }),
+      app.get('/api/menu', (req, res) => {
+        res.json({
+          errno: 0,
+          data: menu
+        })//接口返回json数据，上面配置的数据menu就赋值给data请求后调用
       })
     },
   },

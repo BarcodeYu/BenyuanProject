@@ -7,6 +7,7 @@ import bottom from '@/components/bottom/bottom'
 import popwindow from '@/components/popwindow/popwindow'
 import onsale from '@/components/popwindow/onsale'
 import popxueli from '@/components/popwindow/popxueli'
+import bar from '@/components/bar/bar'
 
 Vue.use(Router)
 
@@ -47,6 +48,11 @@ export default new Router({
       path: '/popxueli',
       name: 'popxueli',
       component: popxueli
+    },
+    {
+      path: '/bar',
+      name: 'bar',
+      component: bar
     }
   ]
 })
